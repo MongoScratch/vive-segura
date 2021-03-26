@@ -1,0 +1,343 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mujersegura"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:4:5-79
+15-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:4:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:5:5-81
+16-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:5:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+17-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+18-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:firebase_analytics] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+19-->[:firebase_analytics] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:firebase_analytics] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+20-->[:firebase_analytics] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:connectivity] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-76
+21-->[:connectivity] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-73
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:6:5-44:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:7:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/86d2011040c2f26aa1316da43c4549b6/core-1.2.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:9:9-43
+30        android:label="mujersegura" >
+30-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:8:9-36
+31        <activity
+31-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:10:9-38:20
+32            android:name="com.example.mujersegura.MainActivity"
+32-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:11:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:14:13-163
+34            android:hardwareAccelerated="true"
+34-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:15:13-47
+35            android:launchMode="singleTop"
+35-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:12:13-43
+36            android:theme="@style/LaunchTheme"
+36-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:13:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:16:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:21:13-24:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:22:15-70
+47                android:resource="@style/NormalTheme" />
+47-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:23:15-52
+48            <!--
+49                 Displays an Android View that continues showing the launch screen
+50                 Drawable until Flutter paints its first frame, then this splash
+51                 screen fades out. A splash screen is useful to avoid any visual
+52                 gap between the end of Android's launch screen and the painting of
+53                 Flutter's first frame.
+54            -->
+55            <meta-data
+55-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:30:13-33:17
+56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+56-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:31:15-79
+57                android:resource="@drawable/launch_background" />
+57-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:32:15-61
+58
+59            <intent-filter>
+59-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:34:13-37:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:35:17-68
+60-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:35:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:36:17-76
+62-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:36:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:41:9-43:33
+70            android:name="flutterEmbedding"
+70-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:42:13-44
+71            android:value="2" />
+71-->/Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/android/app/src/main/AndroidManifest.xml:43:13-30
+72
+73        <service
+73-->[:cloud_firestore] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[:cloud_firestore] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:19.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/04a11a0a7e4c4a64eddfd073dbc9a5c6/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-firestore:21.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/6f66a21c73191d355e746d6396df4ea3/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+77            <meta-data
+77-->[:cloud_firestore] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+78-->[:cloud_firestore] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:cloud_firestore] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[:firebase_auth] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+81-->[:firebase_auth] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_auth] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+83            <meta-data
+83-->[:firebase_storage] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+84-->[:firebase_storage] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:firebase_storage] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+86            <meta-data
+86-->[:firebase_core] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+87-->[:firebase_core] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:firebase_core] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+89            <meta-data
+89-->[:firebase_analytics] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+90-->[:firebase_analytics] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_analytics] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-firestore:21.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/6f66a21c73191d355e746d6396df4ea3/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+93                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+93-->[com.google.firebase:firebase-firestore:21.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/6f66a21c73191d355e746d6396df4ea3/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-firestore:21.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/6f66a21c73191d355e746d6396df4ea3/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-storage:17.0.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/3af17b38a134f495372aeba4055bb3ef/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+99                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+99-->[com.google.firebase:firebase-storage:17.0.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/3af17b38a134f495372aeba4055bb3ef/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-storage:17.0.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/3af17b38a134f495372aeba4055bb3ef/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+101            <meta-data
+101-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/3982c9450de547e136960085d49306b6/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+102                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+102-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/3982c9450de547e136960085d49306b6/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/3982c9450de547e136960085d49306b6/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+105                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+105-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+107        </service>
+108
+109        <provider
+109-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+110            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+110-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+111            android:authorities="com.example.mujersegura.flutter.image_provider"
+111-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+112            android:exported="false"
+112-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+113            android:grantUriPermissions="true" >
+113-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+114            <meta-data
+114-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+116                android:resource="@xml/flutter_image_picker_file_paths" />
+116-->[:image_picker] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+117        </provider>
+118
+119        <activity
+119-->[:url_launcher] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+120            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+120-->[:url_launcher] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+121            android:exported="false"
+121-->[:url_launcher] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+122            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+122-->[:url_launcher] /Users/gobiernodigital/Downloads/PropioMac/Important/Insituto de la mujer/mujersegura/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+123        <activity
+123-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+124            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+124-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+125            android:excludeFromRecents="true"
+125-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+128        <!--
+129            Service handling Google Sign-In user revocation. For apps that do not integrate with
+130            Google Sign-In, this service will never be started.
+131        -->
+132        <service
+132-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+133            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+133-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+135            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+135-->[com.google.android.gms:play-services-auth:16.0.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2da81f5c6e6ebf3951e2b7b008eeb556/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+136
+137        <activity
+137-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+138            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+138-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+139            android:excludeFromRecents="true"
+139-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+140            android:exported="true"
+140-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+141            android:launchMode="singleTask"
+141-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+142            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+142-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.firebase:firebase-auth:19.2.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/2248341497eef8d7d5e145df13b09685/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+144
+145        <receiver
+145-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+146            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+146-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+147            android:exported="true"
+147-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+148            android:permission="com.google.android.c2dm.permission.SEND" >
+148-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+149            <intent-filter>
+149-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+150-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+150-->[com.google.firebase:firebase-iid:20.0.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/5071bf0b5a2458d6743a79e1d8d8fa17/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+151            </intent-filter>
+152        </receiver>
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:17.2.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/ebbb859ce27cdc4fb83178090534e42f/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:17.2.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/ebbb859ce27cdc4fb83178090534e42f/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:17.2.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/ebbb859ce27cdc4fb83178090534e42f/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:17.2.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/ebbb859ce27cdc4fb83178090534e42f/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+158
+159        <receiver
+159-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+160            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+160-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+162            android:exported="false" >
+162-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+163        </receiver>
+164        <receiver
+164-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+165            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+165-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+166            android:enabled="true"
+166-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+167            android:exported="true"
+167-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+168            android:permission="android.permission.INSTALL_PACKAGES" >
+168-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+169            <intent-filter>
+169-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+170                <action android:name="com.android.vending.INSTALL_REFERRER" />
+170-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+170-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+171            </intent-filter>
+172        </receiver>
+173
+174        <service
+174-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+175            android:name="com.google.android.gms.measurement.AppMeasurementService"
+175-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+176            android:enabled="true"
+176-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+177            android:exported="false" />
+177-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+178        <service
+178-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+179            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+179-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" />
+182-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/bcda4b01361497e9e32368b3cd05fe11/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+183
+184        <provider
+184-->[com.google.firebase:firebase-common:19.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/04a11a0a7e4c4a64eddfd073dbc9a5c6/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+185            android:name="com.google.firebase.provider.FirebaseInitProvider"
+185-->[com.google.firebase:firebase-common:19.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/04a11a0a7e4c4a64eddfd073dbc9a5c6/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+186            android:authorities="com.example.mujersegura.firebaseinitprovider"
+186-->[com.google.firebase:firebase-common:19.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/04a11a0a7e4c4a64eddfd073dbc9a5c6/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+187            android:exported="false"
+187-->[com.google.firebase:firebase-common:19.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/04a11a0a7e4c4a64eddfd073dbc9a5c6/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+188            android:initOrder="100" />
+188-->[com.google.firebase:firebase-common:19.3.0] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/04a11a0a7e4c4a64eddfd073dbc9a5c6/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+189
+190        <meta-data
+190-->[com.google.android.gms:play-services-basement:17.2.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/0e9daac7f0e0227ba5b029ddd9440f8a/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+191            android:name="com.google.android.gms.version"
+191-->[com.google.android.gms:play-services-basement:17.2.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/0e9daac7f0e0227ba5b029ddd9440f8a/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+192            android:value="@integer/google_play_services_version" />
+192-->[com.google.android.gms:play-services-basement:17.2.1] /Users/gobiernodigital/.gradle/caches/transforms-2/files-2.1/0e9daac7f0e0227ba5b029ddd9440f8a/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+193    </application>
+194
+195</manifest>

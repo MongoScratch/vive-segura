@@ -1,0 +1,37 @@
+import 'package:mujersegura/shared/constants.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+
+class OfflineScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Stack(
+        children: <Widget>[
+          Container(
+            color: backgroundColor,
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              SpinKitWave(
+                color: Colors.purple[600],
+                size: 40.0,
+              ),
+              SizedBox(height: 20,),
+              Text(
+                'Buscando una conexión a internet...',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Rome'
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}

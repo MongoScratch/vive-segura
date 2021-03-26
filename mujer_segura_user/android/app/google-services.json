@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "782117485854",
+    "firebase_url": "https://tultitlan-d6cd6-default-rtdb.firebaseio.com",
+    "project_id": "tultitlan-d6cd6",
+    "storage_bucket": "tultitlan-d6cd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782117485854:android:e87e0884e6c19ee7d4dd0f",
+        "android_client_info": {
+          "package_name": "com.example.mujersegura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782117485854-v3bje7kh6a5kul1sdgs9qrh597jouq9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mujersegura",
+            "certificate_hash": "64aa8454cc20c9cfdc0fca3e2e8b1d07b261b12c"
+          }
+        },
+        {
+          "client_id": "782117485854-kp450susifq74a04hu4hbj55mcmunjpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtWM9e5930KYFn2a59JUH4Km0S_1PexzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782117485854-kp450susifq74a04hu4hbj55mcmunjpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782117485854:android:a5ddcd2c0e7263e6d4dd0f",
+        "android_client_info": {
+          "package_name": "com.example.tultitlan_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782117485854-4hevnno3scertubtde5pfak7hlrauj5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tultitlan_user",
+            "certificate_hash": "64aa8454cc20c9cfdc0fca3e2e8b1d07b261b12c"
+          }
+        },
+        {
+          "client_id": "782117485854-kp450susifq74a04hu4hbj55mcmunjpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtWM9e5930KYFn2a59JUH4Km0S_1PexzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782117485854-kp450susifq74a04hu4hbj55mcmunjpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

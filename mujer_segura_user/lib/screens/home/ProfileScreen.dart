@@ -1,0 +1,133 @@
+
+import 'dart:io';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:mujersegura/models/User.dart';
+import 'package:mujersegura/services/database_service.dart';
+import 'package:mujersegura/shared/get_user_details.dart';
+import 'package:mujersegura/shared/loading.dart';
+import 'package:provider/provider.dart';
+import 'package:firebase_storage/firebase_storage.dart';  
+import 'package:path/path.dart' as Path;  
+
+class ProfileScreen extends StatefulWidget {
+  @override
+  State createState() {
+    return _ProfileScreenState();
+  }
+}
+File _image;    
+String _uploadedFileURL; 
+
+class _ProfileScreenState extends State<ProfileScreen> {
+  Firestore firestoreInstance = Firestore.instance;
+
+
+
+ @override
+  Widget build(BuildContext context) {
+    User user1 = Provider.of<User>(context);
+    final DatabaseService _db = DatabaseService(user: user1);
+    return StreamBuilder(
+      stream: _db.userData,
+      builder: (context, snapshot) {
+        User user = snapshot.data;
+        _db.user = user;
+        if (snapshot.hasData) {
+          if (user.gender == null) {
+            print(user.gender);
+            return GetUserDetails();
+          } else {
+            return Scaffold(
+              body: ListView(
+                children: [
+                  SizedBox(height: 20),
+                  Center(
+                    child: Container(
+                      width: 130.0,
+                      height: 130.0,
+                      decoration:  BoxDecoration(
+                        border: Border.all(
+                          width: 5.0,
+                          color: Colors.white
+                        ),
+                        shape: BoxShape.circle,
+                        image: DecorationImage(fit: BoxFit.cover, image:  NetworkImage('https://firebasestorage.googleapis.com/v0/b/coacalco-87ea4.appspot.com/o/profiles%2F91007063_2686680238120452_1097649707913576448_o.jpg?alt=media&token=84177e0a-6076-4e23-824b-cd677c7b2f03'))
+                      )
+                    ),
+                  ),
+                  SizedBox(height: 15.0),
+                  Center(
+                    child: Text(user.name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.black)),
+                  ),
+                  SizedBox(height: 15.0),
+                  /* Container(
+                    margin: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * .20),
+                    child: FlatButton.icon(
+                      label: Text('Registro de actividad', style: TextStyle(color: Colors.white)),
+                      icon: Icon(Icons.local_activity, color: Colors.grey[300]), 
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10)
+                      ),
+                      color: Colors.blue,
+                      onPressed: ()=>null,
+                    ),
+                  ), */
+                  SizedBox(height: 10.0),
+                  Center(
+                    child: Text("This an example description for future versions"),
+                  ),
+                  Divider(),
+                  ListTile(
+                    leading: Icon(Icons.home),
+                    title: Text("Vive en Estado de Mexico"),
+                  ),
+                  ListTile(
+                    leading: Icon(CupertinoIcons.heart_solid),
+                    title: Text("Soltero(a)"),
+                  ),
+                  ListTile(
+                    leading: Icon(Icons.phone),
+                    title: Text("Contactos de emergencia:" + '+52 55 1576 5962, +52 55 1576 5962'),
+                  ),
+                  ListTile(
+                    leading: Icon(Icons.more_horiz),
+                    title: Text("Editar información"),
+                  ),
+                ],
+              ),
+            );
+          }
+        } else {
+          return Loading();
+        }
+      },
+    );
+  }
+
+
+  Future chooseFile() async {    
+   await ImagePicker.pickImage(source: ImageSource.gallery).then((image) {    
+     setState(() {    
+       _image = image;    
+     });    
+   });    
+ }  
+
+
+ Future uploadFile() async {    
+   StorageReference storageReference = FirebaseStorage.instance    
+       .ref()    
+       .child('chats/${Path.basename(_image.path)}}');    
+   StorageUploadTask uploadTask = storageReference.putFile(_image);    
+   await uploadTask.onComplete;    
+   print('File Uploaded');    
+   storageReference.getDownloadURL().then((fileURL) {    
+     setState(() {    
+       _uploadedFileURL = fileURL;    
+     });    
+   });    
+ }  
+}
